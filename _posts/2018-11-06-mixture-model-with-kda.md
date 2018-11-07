@@ -2,7 +2,7 @@
 mathjax: true
 ---
 
-## Mixture Models and Kernel Density Analysis
+## Mixture Models and Kernel Discriminant Analysis
 
 ### Mixture Models
 
@@ -24,18 +24,12 @@ The idea now is to fit the data with some of the most flexible parametric models
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/88/Nc_student_t_pdf.svg){: .center-image }
 
-[^1]: Peter Hall and Xiao-Hua Zhou, Ann. Statist. Volume 31, Number 1 (2003), 201-224.
-
 ### Neutrino Wrong Sign Contamination
 
-The neutrino beams are not pure. In the forward horn current (FHC) mode, the beam is mostly composed of muon neutrinos, $\nu_\mu$. However, there is a small amount of $\bar{\nu}_\mu$ contamination in the beam, and this is called wrong sign contamination. Likewise, in the reversed horn current (RHC) mode, there is $\nu_\mu$ contamination in the $\bar{\nu}_\mu$ beam. In RHC, however, the wrong sign proportion is much higher than that in FHC, predominantly due to the higher interaction cross section of $\nu_\mu$ than $\bar{\nu}_\mu$.
+The neutrino beams are not pure. In the forward horn current (FHC) mode, the beam is mostly composed of muon neutrinos, $\nu_\mu$. However, there is a small amount of muon antineutrino contamination in the beam, and this is called wrong sign contamination. Likewise, in the reversed horn current (RHC) mode, there is $\nu_\mu$ contamination in the antineutrino beam. In RHC, however, the wrong sign proportion is much higher than that in FHC, predominantly due to the higher interaction cross section of $\nu_\mu$ than $\bar{\nu}_\mu$.
 
 The wrong sign component is easily measured if a magnetic field is applied to the detectors. However, since NOvA detectors are not magnetized, it becomes very difficult to estimate the wrong sign background.
 
-### Jekyll Themes
+### References
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kaikai581/kaikai581.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[^1]: Peter Hall and Xiao-Hua Zhou, Ann. Statist. Volume 31, Number 1 (2003), 201-224.
