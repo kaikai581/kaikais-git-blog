@@ -30,6 +30,10 @@ The neutrino beams are not pure. In the forward horn current (FHC) mode, the bea
 
 The wrong sign component is easily measured if a magnetic field is applied to the detectors. However, since NOvA detectors are not magnetized, it becomes very difficult to estimate the wrong sign background.
 
+### Wrong Sign Classification
+
+My colleagues have been looking into this problem and made impressive achievements. For example, one of the methods is to train a classifier with engineered features that best separates wrong sign from signal. The algorithm used here is the very popular one in high energy physics, the Boosted Decision Tree (BDT). Here is the result from ROOT's TMVA multivariate analysis package.
+
 ### References
 
 [^1]: Peter Hall and Xiao-Hua Zhou, Ann. Statist. Volume 31, Number 1 (2003), 201-224.
