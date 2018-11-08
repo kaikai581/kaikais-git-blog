@@ -16,7 +16,7 @@ f(\boldsymbol{x};\boldsymbol{\theta})=\sum_{i=1}^g\pi_if_i(\boldsymbol{x};\bolds
 $$
 
 
-$f(\boldsymbol{x};\boldsymbol{\theta})$ is referred to as a mixture density, $g$ is the number of component distributions, and $\boldsymbol{\theta}=(\boldsymbol{\pi},\boldsymbol{\theta_1},...,\boldsymbol{\theta_g})$ is the parameter vector we want to estimate.
+$f(\boldsymbol{x};\boldsymbol{\theta})$ is referred to as a mixture density, $g$ is the number of component distributions, and $\boldsymbol{\theta}=(\boldsymbol{\pi},\boldsymbol{\theta_1},...,\boldsymbol{\theta_g})$ is the parameter vector we want to estimate subject to the constraint $\sum_{i=1}^g\pi_i=1$.
 
 Note that here the formulation is written down explicitly as parametric modeling. Nonparametric mixture models are much more difficult problems pioneered by Hall and Zhou[^1], and will not be adopted here.
 
@@ -28,11 +28,11 @@ The idea now is to fit the data with some of the most flexible parametric models
 
 The neutrino beams are not pure. In the forward horn current (FHC) mode, the beam is mostly composed of muon neutrinos, $\nu_\mu$. However, there is a small amount of muon antineutrino contamination in the beam, and this is called wrong sign contamination. Likewise, in the reversed horn current (RHC) mode, there is $\nu_\mu$ contamination in the antineutrino beam. In RHC, however, the wrong sign proportion is much higher than that in FHC, predominantly due to the higher interaction cross section of $\nu_\mu$ than $\bar{\nu}_\mu$.
 
-The wrong sign component is easily measured if a magnetic field is applied to the detectors. However, since NOvA detectors are not magnetized, it becomes very difficult to estimate the wrong sign background.
+The wrong sign component is easily measured if a magnetic field is applied to the detectors. However, since our detectors are not magnetized, it becomes very tricky to estimate the wrong sign background.
 
 ### Wrong Sign Classification
 
-My colleagues have been looking into this problem and made impressive achievements. For example, one of the methods is to train a classifier with engineered features that best separates wrong sign from signal. The algorithm used here is the very popular one in high energy physics, the Boosted Decision Tree (BDT). Here is the result from ROOT's TMVA multivariate analysis package.
+My colleagues have been looking into this problem and made impressive achievements. For example, one of the methods is to train a classifier with engineered features that best separates wrong sign from right sign. The algorithm used here is a very popular one in high energy physics for particle identification, the Boosted Decision Tree (BDT). Here is the result obtained with ROOT's TMVA multivariate analysis package.
 
 ### References
 

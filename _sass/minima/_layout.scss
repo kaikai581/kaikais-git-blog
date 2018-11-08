@@ -228,6 +228,7 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+  text-align: justify;
 
   h2 {
     @include relative-font-size(2);
@@ -235,6 +236,7 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.75);
     }
+    text-align: left;
   }
 
   h3 {
@@ -243,6 +245,7 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.375);
     }
+    text-align: left;
   }
 
   h4 {
@@ -251,5 +254,6 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
+    text-align: left;
   }
 }
