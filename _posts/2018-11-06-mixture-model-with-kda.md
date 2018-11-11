@@ -46,7 +46,7 @@ BDT is one of the multivariate classifiers with good performance in general. How
 
 ### Linear Discriminant Analysis
 
-A less model dependence way to estimate the wrong sign component is to fit a mixture model to data. Of course one can construct a parametric mixture model in the ten dimensional space. However, this could be very formidable mathematically and computationally. Fortunately, statisticians have considered such kind of problems for a long time, and a method called Linear Discriminant Analysis (LDA) was developed and has been used as a means of dimensionality reduction in many areas.
+A less model-dependent way to estimate the wrong sign component is to fit a mixture model to data. Of course one can construct a parametric mixture model in the ten dimensional space. However, this could be very formidable mathematically and computationally. Fortunately, statisticians have considered such kind of problems for a long time, and a method called Linear Discriminant Analysis (LDA) was developed and has been used as a means of dimensionality reduction in many areas.
 
 ### References
 
